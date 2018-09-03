@@ -55,9 +55,14 @@ html,body{
 #tribute-p {
   margin: 10px;
 }
-@media (max-width: 550px) {
+
+@media only screen and (max-width: 720px) {
   #tribute-ul > li {
-    margin: 30px;
+    margin: 20px;
     line-height: 1.3em;
+  }
+
+  #img-caption {
+    font-size: 1.3em;
   }
 }
