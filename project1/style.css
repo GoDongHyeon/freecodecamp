@@ -49,6 +49,15 @@ html,body{
   padding: 0px;
 }
 
-li {
+#tribute-ul > li {
+  margin: 20px;
+}
+#tribute-p {
   margin: 10px;
+}
+@media (max-width: 550px) {
+  #tribute-ul > li {
+    margin: 30px;
+    line-height: 1.3em;
+  }
 }

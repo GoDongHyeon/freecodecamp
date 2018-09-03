@@ -24,12 +24,13 @@ ul{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .labels {
-  display: inline-block;
-  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   text-align: right;
 }
 
@@ -80,10 +81,13 @@ ul{
   font-size: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
+  #survey-form {
+    width: 85%;
+  }
+
   .labels {
     width: 100%;
-    text-align: left;
   }
   .right-value {
     width: 80%;
