@@ -20,6 +20,8 @@ html,body{
 .b-title {
   margin-top: 1.6em;
   margin-bottom: 0.2em;
+
+  font-size: 2.5em;
 }
 
 
@@ -37,6 +39,7 @@ html,body{
 #img-caption {
   margin-top: 9px;
   margin-bottom: 9px;
+  font-size: 0.9em;
 }
 
 #tribute-info {
@@ -45,8 +48,9 @@ html,body{
 #tribute-info > ul {
   text-align: left;
   margin:0 auto;
-  max-width: 550px;
+  max-width: 750px;
   padding: 0px;
+  font-size: 0.8em;
 }
 
 #tribute-ul > li {
@@ -54,15 +58,4 @@ html,body{
 }
 #tribute-p {
   margin: 10px;
-}
-
-@media only screen and (max-width: 720px) {
-  #tribute-ul > li {
-    margin: 20px;
-    line-height: 1.3em;
-  }
-
-  #img-caption {
-    font-size: 1.3em;
-  }
 }
