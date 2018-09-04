@@ -26,7 +26,7 @@ html, body {
   justify-content: center;
 }
 #navbar > li {
-  margin-right:40px;
+  margin:0 20px;
 }
 #navbar > li > a{
   color: white;
@@ -39,7 +39,8 @@ html, body {
 }
 
 #intro-1 {
-  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed, url(https://images.unsplash.com/photo-1535535340673-addddf9dd35b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=80594969b9ef66eca2e74140cccf4fc6&auto=format&fit=crop&w=2249&q=80) fixed;
+  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed,
+              url(https://images.unsplash.com/photo-1535535340673-addddf9dd35b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=80594969b9ef66eca2e74140cccf4fc6&auto=format&fit=crop&w=2249&q=80) fixed;
   background-size: cover;
 }
 #wel-h1, #wel-h2, #wel-h3 {
