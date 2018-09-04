@@ -90,7 +90,7 @@ body {
 
 @media only screen and (max-width: 480px) {
   #all-wrapper {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
