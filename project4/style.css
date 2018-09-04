@@ -93,7 +93,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    overflow-x: hidden;
   }
   #page-left-wrapper {
     width: 90%;

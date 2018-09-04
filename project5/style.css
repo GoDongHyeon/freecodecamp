@@ -23,7 +23,7 @@ html, body {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 #navbar > li {
   margin-right:40px;
@@ -105,6 +105,10 @@ html, body {
 .work-menu {
   margin-right:20px;
 }
+.work-menu a {
+  color: #000;
+  text-decoration: none;
+}
 #circle {
   border:0.5px solid #28AA2D;
   width:30px;
@@ -128,12 +132,20 @@ html, body {
 }
 
 #profile-link {
-  height: 320px;
-  width: 542px;
+  height: 70%;
+  width: 100%;
   margin:0 auto;
-  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile-works {
+  width: 90%;
+  max-width: 400px;
+  height: 50%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
 }
@@ -146,12 +158,13 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 .works-img {
   max-width: 100%;
   max-height: 100%;
   background-size: cover;
-border-radius: 3px;
+  border-radius: 20px;
 }
 
 /* intro-3 css */
@@ -197,54 +210,4 @@ border-radius: 3px;
 #submit-btn {
   width: 120px;
   height: 35px;
-}
-
-
-@media (max-width: 550px) {
-  #welcome-section {
-    min-width: 550px;
-  }
-  #nav-wrap {
-    justify-content: space-around;
-  }
-  #navbar {
-    width: 180px;
-  }
-  #navbar > li {
-    margin-right:20px;
-  }
-
-  #wel-h1, #wel-h2, #wel-h3 {
-    top:100px;
-  }
-
-  /* intro-2 css */
-
-  #profile-link {
-    width: 348px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  /* intro-3 css */
-
-  #contact-form {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas:
-      "title title title"
-      "sect1 text1 text1"
-      "sect2 text2 text2"
-      "sect3 text3 text3"
-      "sect4 . ."
-      "text4 text4 text4"
-      "text4 text4 text4"
-      "submit submit submit"
-  }
-
-  #cont-textarea {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
 }
